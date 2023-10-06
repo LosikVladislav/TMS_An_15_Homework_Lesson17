@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TMS_An_15_Homework_Lesson17</string>
+    <string name="come_home">Come home</string>
+    <string name="start_comp">Start the computer</string>
+    <string name="next">Next</string>
+    <string name="run_studio">Run Android Studio</string>
+    <string name="do_hw">Do homework </string>\
+    <string name="write_message">write to your teacher about completing your homework assignment</string>
+    <string name="prise">Congratulations! you are one step closer to your goal!</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_width_TV">150dp</dimen>
+    <dimen name="layout_height_TV">100dp</dimen>
+    <dimen name="layout_margin_TV">16dp</dimen>
+    <dimen name="layout_marginTop_IMG">180dp</dimen>
+    <dimen name="layout_marginTop_BTN">54dp</dimen>
+</resources>
