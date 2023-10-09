@@ -4,6 +4,6 @@
     <dimen name="margin_between_pict_tv">16dp</dimen>
     <dimen name="marginTop_main_pict">180dp</dimen>
     <dimen name="marginTop_btn_switch">54dp</dimen>
-    <dimen name="width_pict">300dp</dimen>
-    <dimen name="height_pict">300dp</dimen>
+    <dimen name="width_main_pict">300dp</dimen>
+    <dimen name="height_main_pict">300dp</dimen>
 </resources>

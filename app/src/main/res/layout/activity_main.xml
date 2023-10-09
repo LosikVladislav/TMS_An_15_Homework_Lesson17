@@ -19,8 +19,8 @@
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/home"
-        android:layout_width="@dimen/width_pict"
-        android:layout_height="@dimen/height_pict"
+        android:layout_width="@dimen/width_main_pict"
+        android:layout_height="@dimen/height_main_pict"
         android:layout_marginTop="@dimen/marginTop_main_pict"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/marginTop_btn_switch"
         android:text="@string/next"
-        style="@style/button"
+        style="@style/button_switch"
         app:layout_constraintEnd_toEndOf="@+id/desc_home"
         app:layout_constraintStart_toStartOf="@+id/desc_home"
         app:layout_constraintTop_toBottomOf="@+id/desc_home" />
