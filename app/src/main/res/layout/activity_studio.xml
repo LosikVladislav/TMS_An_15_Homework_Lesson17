@@ -6,34 +6,34 @@
     android:layout_height="match_parent"
     tools:context=".Studio">
 
-    <TextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/desc_studio"
-        android:layout_width="@dimen/layout_width_TV"
-        android:layout_height="@dimen/layout_height_TV"
-        android:layout_margin="@dimen/layout_margin_TV"
+        android:layout_width="@dimen/title_width_desc_tv"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_between_pict_tv"
         android:text="@string/run_studio"
-        style="@style/Text_style"
+        style="@style/text"
         app:layout_constraintEnd_toEndOf="@+id/studio"
         app:layout_constraintStart_toStartOf="@+id/studio"
         app:layout_constraintTop_toBottomOf="@+id/studio" />
 
-    <ImageView
+    <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/studio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/layout_marginTop_IMG"
+        android:layout_width="@dimen/width_pict"
+        android:layout_height="@dimen/height_pict"
+        android:layout_marginTop="@dimen/marginTop_main_pict"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/android_studio" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_switch_homework_act"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/layout_marginTop_BTN"
+        android:layout_marginTop="@dimen/marginTop_btn_switch"
         android:text="@string/next"
-        style="@style/Btn_style"
+        style="@style/button"
         app:layout_constraintEnd_toEndOf="@+id/desc_studio"
         app:layout_constraintStart_toStartOf="@+id/desc_studio"
         app:layout_constraintTop_toBottomOf="@+id/desc_studio" />
